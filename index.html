@@ -1,93 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Snippet Cheatsheet</title>
-    <link rel="stylesheet" href="./assets/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Snippet Cheatsheet</title>
+  <link rel="stylesheet" href="./assets/style.css" />
 </head>
+
 <body>
-    <header id="main-header">
-        <h1>CSS Snippet Cheatsheet</h1>
-        <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
-    </header>
+  <header id="main-header">
+    <h1>CSS Snippet Cheatsheet</h1>
+    <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to
+      this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+  </header>
 
-    <main>
-        <section class="card">
-            <header>Flexbox Row</header>
-            <p>Use these three properties to create a Flexbox row layout.</p>
-            <section class = "ul">
-              <li>.row {</li>
-              <li>  dispay: flex;</li>
-              <li>  flex-direction: row;</li>
-              <li>flex-wrap: wrap;</li>
-              <li>}</li>
-              </section>
-          </section>
+  <main>
+    <section class="card">
+      <header>Flexbox Row</header>
+      <p>Use these three properties to create a Flexbox row layout.</p>
+      <ul class="ul">
+        <li>.row {</li>
+        <li> dispay: flex;</li>
+        <li> flex-direction: row;</li>
+        <li>flex-wrap: wrap;</li>
+        <li>}</li>
+      </ul>
+    </section>
 
-          <section class="card">
-            <header>Flexbox Column</header>
-            <p>Use this to create a Flexbox column layout.</p>
-            <section class = "ul">
-              <li>.column {</li>
-              <li>  dispay: flex;</li>
-              <li>  flex-direction: column;</li>
-              <li>}</li>
-              </section>
-          </section>
+    <section class="card">
+      <header>Flexbox Column</header>
+      <p>Use this to create a Flexbox column layout.</p>
+      <ul class="ul">
+        <li>.column {</li>
+        <li> dispay: flex;</li>
+        <li> flex-direction: column;</li>
+        <li>}</li>
+        </ul>
+    </section>
 
-          <section class="card">
-            <header>CSS Grid Layout</header>
-            <p>Build a 12-column layout using CSS Grid.</p>
-            <section class = "ul">
-              <li>.grid {</li>
-              <li>  dispay: grid;</li>
-              <li>  width: 100%;</li>
-              <li>grid-template-columns:</li>
-              <li>repeat(12, 1fr);</li>
-              <li>}</li>
-              </section>
-          </section>
+    <section class="card">
+      <header>CSS Grid Layout</header>
+      <p>Build a 12-column layout using CSS Grid.</p>
+      <ul class="ul">
+        <li>.grid {</li>
+        <li> dispay: grid;</li>
+        <li> width: 100%;</li>
+        <li>grid-template-columns:</li>
+        <li>repeat(12, 1fr);</li>
+        <li>}</li>
+      </ul>
+    </section>
 
-          <section class="card">
-            <header>Linear Gradients</header>
-            <p>This will create a background linear gradient from top to bottom.</p>
-            <section class = "ul">
-              <li>.row {</li>
-              <li>  dispay: flex;</li>
-              <li>  flex-direction: row;</li>
-              <li>flex-wrap: wrap;</li>
-              <li>}</li>
-              </section>
-          </section>
+    <section class="card">
+      <header>Linear Gradients</header>
+      <p>This will create a background linear gradient from top to bottom.</p>
+      <ul class="ul">
+        <li>.row {</li>
+        <li> dispay: flex;</li>
+        <li> flex-direction: row;</li>
+        <li>flex-wrap: wrap;</li>
+        <li>}</li>
+      </ul>
+    </section>
 
-          <section class="card">
-            <header>Box Transition Glow</header>
-            <p>Use transition and box shadows to glow on hover.</p>
-            <section class = "ul">
-              <li>.code-card .card-header {</li>
-              <li>  border-radius: 8px;</li>
-              <li>transition: all 0.5s ease-in-out;</li>
-              <li>}</li>
-              <br>
-              <li>.code-card: hover,</li>
-              <li>.code-card:hover .card-header {</li>
-              <li>box-shadow: inset 0px 0px 8px</li><li>rgba(232, 102, 236, 1), 0 0 15px</li>
-              <li>rgba(232, 102, 236, 1);</li>
-              <li>}</li>
-              </section>
-          </section>
+    <section class="card">
+      <header>Box Transition Glow</header>
+      <p>Use transition and box shadows to glow on hover.</p>
+      <ul class="ul">
+        <li>.code-card .card-header {</li>
+        <li> border-radius: 8px;</li>
+        <li>transition: all 0.5s ease-in-out;</li>
+        <li>}</li>
+        <br>
+        <li>.code-card: hover,</li>
+        <li>.code-card:hover .card-header {</li>
+        <li>box-shadow: inset 0px 0px 8px</li>
+        <li>rgba(232, 102, 236, 1), 0 0 15px</li>
+        <li>rgba(232, 102, 236, 1);</li>
+        <li>}</li>
+      </ul>
+    </section>
 
-          <section class="card">
-            <header>Overlay Card with Title</header>
-            <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
-            <section class = "ul">
-              <li>.card-header {</li>
-              <li>  position: relative;</li>
-              <li>  margin-top: -20px;</li>
-              <li>}</li>
-              </section>
-          </section>
-    </main>
+    <section class="card">
+      <header>Overlay Card with Title</header>
+      <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+      <ul class="ul">
+        <li>.card-header {</li>
+        <li> position: relative;</li>
+        <li> margin-top: -20px;</li>
+        <li>}</li>
+      </ul>
+    </section>
+  </main>
 </body>
+
 </html>
